@@ -34,3 +34,8 @@ jobs:
 
       - name: Run lighthouse audit
         run: yarn test:lh-ci
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: lighthouseci-audits
+          path: .lighthouseci

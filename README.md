@@ -1,4 +1,4 @@
-# ♿ react-accessibility-tools-integration
+# ♿ react-accessibility-tools-integration ![CI](https://github.com/pgmanutd/react-accessibility-tools-integration/workflows/CI/badge.svg)
 
 > Integration of available react accessibility tools
 
