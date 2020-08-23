@@ -13,7 +13,7 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-it('popup should not fail an aXe audit', async () => {
+it('App should not fail an aXe audit', async () => {
   const { container } = render(<App />);
 
   expect(await axe(container)).toHaveNoViolations();
